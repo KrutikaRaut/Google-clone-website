@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.head{
+    height:60px;
+    background-color: #202124;
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size:0.85rem;
+    text-align: center;
+
+}
+
+.head-box1{
+    width: 34px;
+    height: 16px;
+    background-color: #202124;
+    color:#FFFFFF;
+    padding-left:4px;
+    
+    
+}
+
+.head-box2{
+    width: 43px;
+    height: 16px;
+    background-color: #202124;
+    color:#FFFFFF;
+    padding-left:4px;
+}
+
+.icon{
+    margin:1.5rem;
+
+}
+
+.center_part{
+    height: 160px;
+    background-color: #202124;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.google_image{
+    background-image:url("google_image.png");
+    height: 92px;
+    width: 272px;
+    background-size:cover;
+}
+   
+.panel2{
+    height: 142px;
+    background-color: #202124; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.search_part{
+    height: 46px;
+    width: 600px;
+    background-color: rgb(93, 92, 92);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:1.1rem;
+    border-radius:3rem;
+    margin-top: 12px;
+}
+
+.search_input{
+    width:80%;
+    
+}
+
+input{
+    height:27px;
+    width:100%;
+    background-color: rgb(93, 92, 92);
+    border:none;
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.button{
+    height: 60px;
+    width: 585px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 35px;
+    width: 142px;
+    font-size:0.85rem;
+    margin-top:10px;
+    margin-right:10px;
+    background-color: #303134;
+    color:#E8E8E8;
+    border-radius:0.3rem;
+
+    
+}
+
+.box p{
+    text-align: center;
+    margin-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box:hover{
+    border: 1px solid white;
+}
+
+.panel3{
+    height: 275px;
+    background-color: #202124;
+    color:#BFBFBF;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.panel3 a{
+    color:rgb(119, 201, 228);
+    margin-right:2px;
+}
+
+.panel3 a:hover{
+    text-decoration: underline;
+}
+
+.panel4{
+    height: 20px;
+    background-color: rgb(24, 23, 23);
+    color:#E8E8E8;
+    padding:15px 30px 15px 30px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.9rem; 
+}
+
+footer{
+    background-color: rgb(24, 23, 23);
+    height:50px;
+    border-top:0.5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#E8E8E8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    
+}
+
+.footer-box a{
+    margin-right: 15px;
+
+}
+
+
+
+
