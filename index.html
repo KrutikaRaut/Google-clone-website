@@ -40,28 +40,35 @@
     </div>
 
     <div class="panel2">
-        <div class="search_part">
-
+        <form action="https://www.google.com/search" method="get" class="search_part">
             <div class="search_icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="search_input">
-               <input>
+                <input type="text" name="q" placeholder="Search Google..." required>
             </div>
+
             <div class="search_mic">
                 <i class="fa-solid fa-microphone"></i>
             </div>
             <div class="search_camera">
                 <i class="fa-solid fa-camera"></i>
             </div>
-        </div>
+        </form>
 
-        <div class="button">
+        <div class="button_box">
+            <!-- Buttons modified to work with the form -->
             <div class="box">
-                <p>Google Search</p>
+                <button type="submit" form="search_form">
+                    <p>Google Search</p>
+                </button>
+
             </div>
+
             <div class="box">
-                <p>I'm Feeling Lucky</p>
+                <button type="button" onclick="window.location.href='https://www.google.com/doodles';">
+                    <p>I'm Feeling Lucky</p>
+                </button>
             </div>
         </div>
 
